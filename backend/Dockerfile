@@ -28,5 +28,5 @@ ENV PATH="/py/bin:$PATH"
 
 USER django-user
 
-COPY ./backend/entrypoint.sh .
+COPY ./entrypoint.sh .
 ENTRYPOINT ["sh", "backend/entrypoint.sh"]
